@@ -1,8 +1,8 @@
 import type { Metadata } from "next";
 import "./globals.css";
 export const metadata: Metadata = {
-  title: "Ghalyah Health - غالية هيلث",
-  description: "متابعة أدوية الأم",
+  title: "Ghalyah Health",
+  description: "Medication tracker for Mom",
 };
 export default function RootLayout({ children }: { children: React.ReactNode }) {
   return (
